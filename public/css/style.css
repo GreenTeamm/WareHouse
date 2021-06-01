@@ -1,0 +1,92 @@
+:root {
+    --tan:#c66900; 
+    --offWhite:#ffffe5;
+    --cloud:#e1f5fe;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.topnav {
+    background-color: var(--tan);
+    overflow: hidden;
+    text-decoration: none;
+}
+
+header { 
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    display: inline-block;
+    margin: 15px;
+    height: 150px;
+    width: auto;
+}
+
+.search {
+    display: flexbox;
+    display: list-item;
+    list-style: none;
+    align-items: center;
+}
+
+.topnav a {
+    display: flexbox;
+    float: right;
+    color: #e1f5fe;
+    text-align: center;
+    padding: 14px 12px;
+    display: block;
+}
+
+.topnav a:hover {
+    color: black;
+    background-color: var(--cloud);
+}
+
+.container {
+    display: block;
+    margin: 60px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60vw;
+    background-color: #f0ead6;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.items {
+    list-style: none;
+    display: inline-flexbox;
+}
+
+.login {
+    display: flexbox;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    display: list-item;
+ 
+    background-color: var(--cloud);
+    color: var(--tan);
+}
+
+#username,
+#password {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+#login {
+    width: 20%
+    
+}
