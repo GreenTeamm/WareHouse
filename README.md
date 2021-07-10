@@ -27,9 +27,9 @@ This was done so only the comapny who owns the items can view their invenotry.
 
 ## Installation Instructions
 
-To install run "npm i"
-then "node server.js"
-heroku deployment https://greenteamm-warehouse.herokuapp.com/
+* To install run "npm i"
+* then "node server.js"
+* heroku deployment https://greenteamm-warehouse.herokuapp.com/
 
 ## [Repository](https://github.com/GreenTeamm/WareHouse)
 
