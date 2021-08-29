@@ -22,7 +22,7 @@ THEN I can add it to the database
 
 ## Design Decissions
 
-All routes apart form the login and signup are behind an auth wall.
+All routes apart from the login and signup are behind an auth wall.
 This was done so only the company who owns the items can view their invenotry.
 
 ## Installation Instructions
